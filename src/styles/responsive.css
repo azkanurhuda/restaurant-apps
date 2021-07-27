@@ -1,0 +1,104 @@
+@media only screen and (max-width: 499px) {
+    .nav-menu {
+        position: absolute;
+        left: -100%;
+        top: 4rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+        z-index: 99;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 1rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        background: transparent;
+	    border: none;
+    }
+    .info_menu {
+        grid-template-columns: auto 1fr;
+    }
+
+    .menu_minuman {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .container_input {
+        display: grid;
+        grid-template-columns: 100%;
+        margin-bottom: 10px;
+    }
+
+    .btn_submit {
+        min-width: 44px;
+        min-height: 44px;
+        padding: 0 20px;
+        background-color: green;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        align-self: flex-end;
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (min-width: 650px) {
+	.post_content {
+		padding: 16px 32px 32px 32px;
+	}
+	.post_item_title {
+		font-size: 18px;
+	}
+	.post_item_description {
+		font-size: 14px;
+	}
+
+    .restaurant {
+        grid-template-columns: auto 1fr;
+    }
+   
+    .restaurant .restaurant_title {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+   
+    .restaurant .restaurant_overview {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+@media screen and (min-width: 700px) {
+	.list {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 10px;
+		grid-row-gap: 16px;
+	}
+}
+@media screen and (min-width: 900px) {
+	.list {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+@media screen and (min-width: 1200px) {
+	main {
+		max-width: 1200px;
+	}
+}

@@ -1,0 +1,140 @@
+.detail {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.restaurant {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px 16px;
+}
+
+.restaurant_title {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    text-align: center;
+}
+   
+.restaurant .restaurant_poster {
+    width: 100%;
+}
+   
+.restaurant .restaurant_info h4 {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.info_menu {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px 16px;
+}
+
+.manu_makanan {
+    width: 100%;
+}
+
+.menu_minuman {
+    width: 100%;
+}
+
+.info_menu h4 {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.info_menu ul {
+    margin-left: 20px;
+}
+
+.list_menu {
+    font-size: 14px;
+    margin: 3px 0;
+}
+
+.restaurant h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+ 
+.restaurant_overview p {
+    font-size: 14px;
+	line-height: 1.5em;
+    text-align: justify;
+}
+
+.card_review {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.card_review p {
+    font-size: 14px;
+	line-height: 2em;
+}
+
+.btn_show {
+    min-width: 44px;
+    min-height: 44px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.hide {
+    visibility: hidden;
+    display: none;
+}
+
+.add_review {
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_input {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-bottom: 10px;
+}
+
+.input {
+    padding: 10px 20px;
+    min-height: 44px;
+    min-width: 44px;
+}
+
+.label {
+    padding: 10px;
+}
+
+.btn_submit {
+    min-width: 44px;
+    min-height: 44px;
+    padding: 0 20px;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+   
